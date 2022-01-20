@@ -22,13 +22,19 @@ console.log(num)
 //ex [1, 3, 4, 5, 7, 8] and getting the two middle elements would be [4, 5]
 
 let veggies = ["carrot", "potato", "tomato", "broccoli", "spinach", "peas"]
-let twoVeggies = veggies[1, 5]
+let twoVeggies = veggies.slice(2, 4)
 console.log(twoVeggies)
 
 //9 create another array of 4 fruits
 //create a fruits and veggies array and assign it to concatinating the veggies array above and the fruits array
 
+let fruits = ["apple", "orange", "pear", "peach"]
+let fruitAndVeggie = fruits.concat(veggies)
+console.log(fruitAndVeggie)
+
 //10 get the index of one the fruits or veggies in your fruitsAndveggies array
+
+console.log(fruitAndVeggie[4])
 
 // arrays
 
